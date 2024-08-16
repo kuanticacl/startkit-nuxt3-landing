@@ -10,10 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "nuxt": "^3.12.4",
+    "particles.js": "^2.0.0",
     "vue": "latest"
   },
   "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
