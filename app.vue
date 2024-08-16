@@ -1,6 +1,8 @@
+<script setup>
+// Importar Tailwind CSS
+import '@/assets/css/tailwind.css'
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtPage />
 </template>
