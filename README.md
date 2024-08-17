@@ -1,75 +1,70 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Nuxt 3 Landing Page Startkit
 
-## Setup
+Este es un startkit para crear landing pages con [Nuxt 3](https://v3.nuxtjs.org/) y [Tailwind CSS](https://tailwindcss.com/). Su objetivo es proporcionar una base sólida y flexible que te permita iniciar rápidamente el desarrollo de una landing page moderna y responsiva.
 
-Make sure to install the dependencies:
+## Características
 
-```bash
-# npm
+- **Nuxt 3**: Aprovecha la potencia de Nuxt 3 para generar páginas estáticas o aplicaciones híbridas con un rendimiento superior.
+- **Tailwind CSS**: Estiliza tu landing page de manera eficiente utilizando Tailwind CSS, un framework de utilidades altamente personalizable.
+- **Componentes Predefinidos**: Incluye una variedad de componentes útiles para una landing page, como:
+  - Navbar Sticky con menú responsive.
+  - Hero Section con partículas animadas y efectos visuales.
+  - About Section con imagen animada y contenido centrado.
+  - Services Section con tarjetas animadas para explicar servicios.
+  - Gallery Section con un diseño estilo masonry.
+  - Contact Section con formulario centrado y footer colorido.
+
+## Instalación
+
+Para comenzar, clona este repositorio y navega al directorio del proyecto:
+
+```
+
+git clone https://github.com/kuanticacl/startkit-nuxt3-landing
+cd nuxt3-landing-page-startkit
+
+```
+
+Instala las dependencias necesarias:
+
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Uso
 
-Start the development server on `http://localhost:3000`:
+Una vez instaladas las dependencias, puedes iniciar el servidor de desarrollo:
 
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Esto iniciará la aplicación en \`http://localhost:3000\`. Ahora puedes empezar a personalizar los componentes y el diseño según tus necesidades.
 
-Build the application for production:
+## Componentes Incluidos
 
-```bash
-# npm
-npm run build
+- **Navbar**: Barra de navegación sticky con menú responsive y botón de WhatsApp.
+- **HeroSection**: Sección principal con partículas animadas que reaccionan al movimiento del mouse.
+- **AboutSection**: Sección sobre nosotros con imagen animada y texto centrado.
+- **ServicesSection**: Sección de servicios con tarjetas animadas que explican los servicios ofrecidos.
+- **GallerySection**: Galería de imágenes con un diseño estilo masonry.
+- **ContactSection**: Sección de contacto con formulario centrado y un footer de color vibrante.
 
-# pnpm
-pnpm run build
+## Personalización
 
-# yarn
-yarn build
+Cada componente está diseñado para ser fácilmente personalizable. Puedes modificar los estilos, imágenes y textos para adaptarlos a tus necesidades específicas.
 
-# bun
-bun run build
-```
+## Contribuciones
 
-Locally preview production build:
+Este proyecto es **opensource** y las contribuciones son bienvenidas. Si tienes ideas, mejoras o encuentras algún problema, no dudes en abrir un issue o enviar un pull request.
 
-```bash
-# npm
-npm run preview
+## Licencia
 
-# pnpm
-pnpm run preview
+Este proyecto está licenciado bajo la [MIT License](LICENSE).
 
-# yarn
-yarn preview
+## Agradecimientos
 
-# bun
-bun run preview
-```
+Gracias por utilizar este startkit. Esperamos que te ayude a comenzar rápidamente con tu landing page y facilite tu flujo de trabajo de desarrollo web.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+**Desarrollado con ❤️ por Equipo Kuantica.cl**
